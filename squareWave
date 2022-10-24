@@ -1,0 +1,25 @@
+//Produces square wave
+void setup() 
+{
+// Assigning lights to pins
+ pinMode(11,OUTPUT);
+}
+
+void loop() {
+  //At assigned pin the light is turned on and off in a loop
+  
+  //Light turns on
+  digitalWrite(11,HIGH);
+  
+  // 1000 milisecond delay
+  delay(1000);
+  
+  //Light turns off
+  digitalWrite(11,LOW);
+  
+  //1000 milisecond delay
+  delay(1000);
+  
+  //Light turns on
+  digitalWrite(11,HIGH);
+}
